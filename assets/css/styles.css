@@ -333,6 +333,17 @@ img{
   margin-bottom: var(--mb-1);
 }
 
+#icon__id{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5rem;
+}
+
+#icones{
+  margin: 0 .5rem 0 .5rem
+}
+
 .project__container{
   padding: 1.5rem 1rem;
   background-color: var(--first-color);
@@ -435,8 +446,10 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 457px;
-    bottom: 15%;
+    position: absolute;
+    margin-right: 5rem;
+    bottom: 0;
+    width: 295px;
   }
 
   .about__container, .skills__container{
@@ -455,8 +468,20 @@ img{
   .contact__form{
     width: 360px;
   }
-  .contact__container{
-    justify-items: center;
+  .contact__description{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: var(--mb-1);
+  }
+    .contact__icon{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  #icon__id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
